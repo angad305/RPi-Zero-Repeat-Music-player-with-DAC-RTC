@@ -70,7 +70,7 @@ sudo apt-get install mpg123
 ```
 Testing music:
 ```
-sudo mpg123 ~/music/extra/500miles.mp3
+sudo mpg123 ~/music/morning/test.mp3
 ```
 Increase volume using the mixer
 ```
@@ -88,6 +88,9 @@ Lets start the python code which will run the mp3 files at a set time:
 cd ~/music
 python3 play_offline.py
 ```
+
+## Music
+Please put the mp3 files in morning and evening folders. i usually name them a, b, c, d etc so that they play in a sequence.
 
 ![1](https://github.com/user-attachments/assets/8ccb6c46-9650-47ac-a95f-7faca7050677)
 ![2](https://github.com/user-attachments/assets/b8574ecf-2878-4122-8ff8-aad4a2d31599)

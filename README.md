@@ -3,16 +3,16 @@
 A repeat music player with RPi0, Audio Hat, RTC and an LED. It is used to play mp3 files kept in a folder (morning and evening) at a set time. In my case I play in the morning 0900hrs and evening 1830hrs. 
 
 ## I used the following components:
-- Raspberry Pi 0 - 2w
-- [WM8960 Audio HAT]
-- [PCF8563 RTC Board]
+- Raspberry Pi 0 - 2W
+- WM8960 Audio HAT (https://www.waveshare.com/wiki/WM8960_Audio_HAT)
+- PCF8563 RTC Board (https://www.waveshare.com/wiki/PCF8563_RTC_Board)
 - A Green LED
 
 ## Connections
 ![image](https://github.com/user-attachments/assets/21929334-1121-46c5-83fc-f2d150c74154)
 
-LED: GPIO 27 / PIN 13
-RTC PIN: VCC 3V3, GND PIN 6, SDA GPIO 0/ PIN 27, SCL GPIO 1 / Pin 28
+- LED: GPIO 27 / PIN 13
+- RTC PIN: VCC 3V3, GND PIN 6, SDA GPIO 0/ PIN 27, SCL GPIO 1 / Pin 28
 
 
 ## Steps

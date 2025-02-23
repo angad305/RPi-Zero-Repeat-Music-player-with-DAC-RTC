@@ -11,7 +11,7 @@ A repeat music player with RPi0, Audio Hat, RTC and an LED. It is used to play m
 ## Connections
 ![image](https://github.com/user-attachments/assets/21929334-1121-46c5-83fc-f2d150c74154)
 
-- LED: GPIO 27 / PIN 13
+- LED: GPIO 27 / PIN 13  [using 220Ω]
 - RTC PIN: VCC 3V3, GND PIN 6, SDA GPIO 0/ PIN 27, SCL GPIO 1 / Pin 28
 
 
